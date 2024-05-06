@@ -33,13 +33,16 @@ class DogsListView extends StatelessWidget {
         return ListView.builder(
             itemCount: state.dogs.length,
             itemBuilder: (BuildContext context, int index) {
-              return ListTile(
-                title: Text(state.dogs[index].name),
-                subtitle: DogDetailItemsWidget(dog: state.dogs[index]),
-                onTap: () {
-                  context.read<DogsBloc>().add(DogDetail(state.dogs[index]));
-                  context.push(DogsDetailView.path);
-                },
+              return Semantics(
+                label: 'Dog List Item',
+                child: ListTile(
+                  title: Text(state.dogs[index].name),
+                  subtitle: DogDetailItemsWidget(dog: state.dogs[index]),
+                  onTap: () {
+                    context.read<DogsBloc>().add(DogDetail(state.dogs[index]));
+                    context.push(DogsDetailView.path);
+                  },
+                ),
               );
             });
       }),
