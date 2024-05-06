@@ -37,7 +37,6 @@ This is an app which display a simple list of dogs which comes using [dog list e
 - [Install Maestro](https://maestro.mobile.dev/getting-started/installing-maestro) 
 - Run `maestro test maestro/main.yaml`
 - you can also check the screen recording for Maestro Test [here](https://github.com/dviramontes108/dog_api/blob/c2c1fc63ec9743bf41aadc598162d174f54f75dc/Screen%20Recording%202024-05-06%20at%205.36.16%E2%80%AFPM.mov).
-https://github.com/dviramontes108/dog_api/assets/169099991/d4b4563b-b76e-4761-bdda-a458772b93d2
 
 <br>
 
