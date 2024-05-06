@@ -40,6 +40,6 @@ This is an app which display a simple list of dogs which comes using [dog list e
 
 <br>
 
-## Note [!TIP]
+## Note :information_source:
 
 - I didn't spend a fair amount of time to make better structure as well as clean code, and I just focused to show my coding style. I hope you understand this point as I totally agree that there are still many parts should be improved including folder/file structure, etc. Thanks for reviewing my assessment result! :heart:
