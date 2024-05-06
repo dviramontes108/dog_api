@@ -1,0 +1,32 @@
+name: doc_ceo_api
+description: "Dog Api"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: 1.2.0
+  freezed_annotation:
+  json_annotation:
+  go_router:
+  flutter_bloc:
+  equatable:
+  cached_network_image:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  json_serializable:
+  freezed:
+  build_runner:
+  mockito:
+  bloc_test:
+
+flutter:
+  uses-material-design: true
